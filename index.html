@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Timer and Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <h3>Timer and Stopwatch</h3>
+        <p class="type">Select one</p>
+      </div>
+      <div class="outer-wrapper">
+        <button class="btn stopwatch-btn">Stopwatch</button>
+        <button class="btn timer-btn">Timer</button>
+        <div class="stopwatch hidden">
+          <div class="wrapper">
+            <div class="main">
+              <div class="hour">
+                <p class="number" id="stopwatch-hour">00</p>
+                <p>Hours</p>
+              </div>
+              <p class="colon">:</p>
+              <div class="min">
+                <p class="number" id="stopwatch-min">00</p>
+                <p>Minutes</p>
+              </div>
+              <p class="colon">:</p>
+              <div class="sec">
+                <p class="number" id="stopwatch-sec">00</p>
+                <p>Seconds</p>
+              </div>
+              <p class="colon">:</p>
+              <div class="ms">
+                <p class="number" id="stopwatch-ms">00</p>
+                <p>Milliseconds</p>
+              </div>
+            </div>
+          </div>
+          <div class="laps">
+            
+          </div>
+          <div class="btns">
+            <button class="btn start-stopwatch">Start</button>
+            <button class="btn lap-stopwatch hidden">Lap</button>
+            <button class="btn reset-stopwatch">Reset</button>
+          </div>
+
+        </div>
+        <div class="timer hidden">
+          <div class="wrapper">
+            <div class="main">
+              <div class="hour">
+                <p class="number" id="timer-hour">00</p>
+                <p>Hours</p>
+              </div>
+              <p class="colon">:</p>
+              <div class="min">
+                <p class="number" id="timer-min">00</p>
+                <p>Minutes</p>
+              </div>
+              <p class="colon">:</p>
+              <div class="sec">
+                <p class="number" id="timer-sec">00</p>
+                <p>Seconds</p>
+              </div>
+              <p class="colon">:</p>
+              <div class="ms">
+                <p class="number" id="timer-ms">00</p>
+                <p>Milliseconds</p>
+              </div>
+            </div>
+          </div>
+          <div class="btns">
+            <button class="btn set-timer">Set</button>
+            <button class="btn start-timer">Start</button>
+            <button class="btn stop-timer hidden">Stop</button>
+            <button class="btn reset-timer">Reset</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>Made by Om Auti:)</footer>
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
